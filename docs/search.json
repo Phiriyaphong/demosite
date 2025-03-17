@@ -26,5 +26,12 @@
     "title": "favorite",
     "section": "",
     "text": "dog\ncat"
+  },
+  {
+    "objectID": "penguin.html",
+    "href": "penguin.html",
+    "title": "ggplot",
+    "section": "",
+    "text": "penguin\n\nlibrary(palmerpenguins)\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\npalmerpenguins::penguins|&gt;\n  select(\nspecies,island,flipper_length_mm,body_mass_g)|&gt;\n  ggplot(aes(x=body_mass_g,y=flipper_length_mm,col = species))+\n  geom_point(size = 3)+\n  theme_light()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\n\nmaths\n\\(f(x)=\\cfrac{x+1}{x-5}\\)"
   }
 ]

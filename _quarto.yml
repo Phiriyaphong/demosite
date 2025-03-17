@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - favorite.qmd
+      - penguin.qmd
       - about.qmd
 
 format:

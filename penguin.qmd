@@ -1,0 +1,29 @@
+---
+title: "ggplot"
+
+toc: true
+---
+
+# penguin
+
+```{r}
+library(palmerpenguins)
+library(ggplot2)
+library(dplyr)
+
+palmerpenguins::penguins|>
+  select(
+species,island,flipper_length_mm,body_mass_g)|>
+  ggplot(aes(x=body_mass_g,y=flipper_length_mm,col = species))+
+  geom_point(size = 3)+
+  theme_light()
+```
+
+
+# maths
+
+$f(x)=\cfrac{x+1}{x-5}$
+
+
+
+
