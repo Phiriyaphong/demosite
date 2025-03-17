@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&subset=thai&display=swap');
 
+@font-face {
+  font-family: 'Sriracha';
+  src: url('fonts/Sriracha-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Sriracha', sans-serif;
   font-size: 1.5em;
