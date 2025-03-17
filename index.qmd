@@ -9,3 +9,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 1 + 1
 ```
+
+# สวัสดี
+
+วันจันทร์ที่ 17 มีนาคม 2567

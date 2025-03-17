@@ -1,1 +1,6 @@
-/* css styles */
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sriracha">
+
+body {
+  font-family: "Sriracha";
+  font-size: 50em;
+}
