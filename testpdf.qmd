@@ -1,6 +1,11 @@
 ---
-title: "Untitled"
-format: pdf
+title: "prem"
+format: 
+  html:
+    toc: true
+    downloads: pdf
+  pdf:
+    papersize: a4
 ---
 
 test pdf
