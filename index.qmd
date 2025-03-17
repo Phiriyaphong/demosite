@@ -1,5 +1,5 @@
 ---
-title: "demosite2"
+title: "demosite"
 ---
 
 This is a Quarto website.
